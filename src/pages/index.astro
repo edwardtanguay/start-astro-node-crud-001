@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { EmployeeList } from '../components/EmployeeList';
+---
+
+<Layout title="Employee Management">
+	<main>
+		<EmployeeList client:load />
+	</main>
+</Layout>
+
